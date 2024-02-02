@@ -1,20 +1,25 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
     text-align: center;
-}
-
-table {
-    width: 60%;
-    border-collapse: collapse;
-}
-
-th,td {
-    border: 1px solid #ddd;
-    padding: 10px;
+    background-color: #eeeded;
 }
 
 th {
     background-color: rgb(199, 199, 248);
+    text-transform: uppercase;
+}
+
+table {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid #cbcaca;
+    padding: 10px;
+    margin: 0;
 }
 
 #tr2 {
